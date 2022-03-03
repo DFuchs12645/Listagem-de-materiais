@@ -116,37 +116,6 @@ function caling(){
 
     lista.innerHTML = ''
     imprimir()
-    
-    var ingredietes = {
-        //Acucar:(bololaranja.Acucar*bl+paointegral.Acucar*pi+roscachocolate.Acucar*rc).toFixed(2),
-        //Agua: (mpastel.Agua*pf+mpastel.Agua*pe+paointegral.Agua*pi).toFixed(2),
-        //Alho_poro:(alhobacon.Alho_poro*ab).toFixed(2),
-        //Aveia: (mpastel.Aveia*pe+mpastel.Aveia*pf+paointegral.Aveia*pi).toFixed(2),
-        //Azeite:(paointegral.Azeite*pi).toFixed(2),
-        //Bacon:(alhobacon.Bacon*ab).toFixed(2),
-        //Cebola:(rfrango.Cebola*pf+respinafre.Cebola*pe).toFixed(2),
-        //Creme_de_leite:(quiche.Creme_de_leite*ab+quiche.Creme_de_leite*pq).toFixed(2),
-        //Espinafre:(respinafre.Espinafre*pe).toFixed(2),
-        //Farinha_de_Trigo:(mpastel.Farinha_de_Trigo*pe+mpastel.Farinha_de_Trigo*pf+quiche.Farinha_de_Trigo*ab+quiche.Farinha_de_Trigo*pq+bololaranja.Farinha_de_Trigo*bl+paointegral.Farinha_de_Trigo*pi+roscachocolate.Farinha_de_Trigo*rc).toFixed(2),
-        //Farinha_de_Trigo_Integral: (mpastel.Farinha_de_Trigo_Integral*pe+mpastel.Farinha_de_Trigo_Integral*pf+paointegral.Farinha_de_Trigo_Integral*pi).toFixed(2),
-        //Fermento_bolo:(quiche.Fermento_bolo*pq+quiche.Fermento_bolo*ab+bololaranja.Fermento_bolo*bl).toFixed(2),
-        //Fermento_pao:(roscachocolate.Fermento_pao*rc+paointegral.Fermento_pao*pi).toFixed(2),
-        //Frango: (rfrango.Frango*pf).toFixed(2),
-        //Gotas_de_chocolate:(roscachocolate.Gotas_de_chocolate*rc).toFixed(2),
-        //Laranja:(bololaranja.Laranja*bl).toFixed(2),
-        //Leite:(quiche.Leite*pq+quiche.Leite*ab+roscachocolate.Leite*rc).toFixed(2),
-        //Manteiga:(roscachocolate.Manteiga*rc),
-        //Margarina:(quiche.Margarina*pq+quiche.Margarina*ab).toFixed(2),
-        //Mussarela:(presunto.Mussarela*pq).toFixed(2),
-        //Noz_moscada:(quiche.Noz_moscada*pq+quiche.Noz_moscada*ab).toFixed(2),
-        //Oleo: (mpastel.Oleo*pe+respinafre.Oleo*pe+mpastel.Oleo*pf+rfrango.Oleo*pf+quiche.Oleo*pq+quiche.Oleo*ab+bololaranja.Oleo*bl+roscachocolate.Oleo*rc).toFixed(2),
-        //Ovo:(quiche.Ovo*pq+quiche.Ovo*ab+bololaranja.Ovo*bl+roscachocolate.Ovo*rc+paointegral.Ovo*pi).toFixed(2),
-        //Presunto:(presunto.Presunto*pq).toFixed(2),
-        //Queijo_parmessao:(quiche.Queijo_parmessao*pq+quiche.Queijo_parmessao*ab).toFixed(2),
-        //Ricota: (rfrango.Ricota*pf+respinafre.Ricota*pe+presunto.Ricota*pq+alhobacon.Ricota*ab).toFixed(2),
-        //Sal: (mpastel.Sal*pe+mpastel.Sal*pf+quiche.Sal*pq+quiche.Sal*ab+paointegral.Sal*pi).toFixed(2),
-        //Salsa_e_Cebolinha: (rfrango.Cheiro_verde*pf).toFixed(2),
-    }
 }
 function imprimir(){
     

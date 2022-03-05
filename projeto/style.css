@@ -46,6 +46,8 @@ header{
     width: 100vw;
     height: 110px;
     background-color: var(--cortop);
+    box-shadow: rgba(68, 68, 68, 0.534) 0px 3px 2px;
+    margin-bottom: 10px;
 }
 header > div#logo{
     background-color:var(--cortop);
@@ -118,7 +120,8 @@ footer{
     height: 4vh;
     bottom:-1px;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 10px;
+    box-shadow: rgba(68, 68, 68, 0.534) 0px -3px 2px;
      
 }
 p {

@@ -1,5 +1,9 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+    @font-face {
+        font-family:'adlery swash';
+        src: url('Adlery_TRIAL.ttf') format('truetype');
+    }
 *{
     margin: 0px;
     padding: 0px;
@@ -9,18 +13,30 @@
     */
     --cordefundo: rgb(255, 208, 208);
     --corup: #ffc800;
-    --fontname: 'Island Moments','Courgette', cursive;
-    --cor1:#F2A30F;
-    --cor2:#F2790F;
-    --cor3:#D9A273;
-    --cor4:#BF2011;
-    --cor5:#F2F2F2;
+    --fontname1: 'Island Moments','Courgette', cursive;
+    --fontname2: 'adlery swash','Courgette', cursive;
+    /*
+    #F2A30F;
+    #F2790F;
+    #D9A273;
+    #BF2011;
+    #F2F2F2;
+    #FDBDA1;
+    #FA8A5A;
+    #BBB385;
+    #ffc800
+    */
+
+    --cortop:#F2A057;
+    --corfundo:#F2F2F2;
+    
+    
 }
 body{
     position: relative;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor5);
+    background-color: var(--corfundo);
     margin: 0em;
     
 }
@@ -28,10 +44,10 @@ header{
     position: relative;
     width: 100vw;
     height: 110px;
-    background-color: var(--cor1);
+    background-color: var(--cortop);
 }
 header > div#logo{
-    background-color:white;
+    background-color:var(--cortop);
     height: 100px;
     width: 100px;
     margin-left: 10px;
@@ -49,7 +65,7 @@ header > div#nomefornecedor{
     font-size: 1.5vw;
     text-align: center;
     color: black;
-    font-family: var(--fontname);
+    font-family: var(--fontname2);
     
 }
 
@@ -93,7 +109,7 @@ div#lista {
 }
 footer{
     position: static;
-    background: var(--cor3);
+    background: var(--cortop);
     background-size: 100%;
     padding: 1px 0px 0px 4px;
     font-family: Arial, Helvetica, sans-serif;
@@ -130,7 +146,7 @@ div#lista{
     /*height: 680px;*/
 }
 div#lbox2{
-    background-color:var(--cor5);
+    background-color:var(--corfundo);
     
     border-radius: 5px;
     margin: auto;

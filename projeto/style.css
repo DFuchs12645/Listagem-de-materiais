@@ -39,7 +39,8 @@ body{
     background-color: var(--corfundo);
     margin: 0em;
     
-}
+} 
+
 header{
     position: relative;
     width: 100vw;

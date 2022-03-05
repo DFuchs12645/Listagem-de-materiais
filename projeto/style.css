@@ -71,6 +71,10 @@ header > div#nomefornecedor{
     font-family: var(--fontname2);
     
 }
+p#sub{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2ex;
+}
 
 
 header > div.menu{

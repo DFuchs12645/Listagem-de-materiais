@@ -113,14 +113,14 @@ div#lista {
     box-shadow: rgba(68, 68, 68, 0.534) 3px 3px 2px;
 }
 footer{
-    position: static;
+    position: absolute !important;
     background: var(--cortop);
     background-size: 100%;
     padding: 1px 0px 0px 4px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     height: 4vh;
-    bottom:-1px;
+    bottom:0px;
     width: 100%;
     margin-top: 10px;
     box-shadow: rgba(68, 68, 68, 0.534) 0px -3px 2px;

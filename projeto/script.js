@@ -1,9 +1,9 @@
-//import * as Cookies from Listaingredientes/jscookie.js;
 var lista = document.getElementById('lista')
 var tabela = document.getElementsByClassName('produto')
 imprimir()
 function caling(){
 
+    //Recebe os valores do input
     var pf = Number(document.getElementById('pf').value)
     var pe = Number(document.getElementById('pe').value)
     var pq = Number(document.getElementById('qpq').value)
@@ -11,8 +11,9 @@ function caling(){
     var bl = Number(document.getElementById('bl').value)
     var rc = Number(document.getElementById('rc').value)
     var pi = Number(document.getElementById('pi').value)
-    console.log(pf)
+    //----------------------------------------------------\\
     
+    //Quatidades dos ingredientes para a produção de uma unidade
     var mpastel={
         Aveia:5.34,
         Farinha_de_Trigo:10.591,
@@ -85,6 +86,9 @@ function caling(){
         Acucar: 25,
         Agua: 285
     }
+    //----------------------------------------------------\\
+
+    //Logica para o calculo da quantidade
     localStorage.setItem('acucar', ((bololaranja.Acucar*bl+paointegral.Acucar*pi+roscachocolate.Acucar*rc).toFixed(2)))
     localStorage.setItem('agua', ((mpastel.Agua*pf+mpastel.Agua*pe+paointegral.Agua*pi).toFixed(2)))
     localStorage.setItem('alhoporo', (((alhobacon.Alho_poro*ab)*1.49).toFixed(2)))
@@ -113,13 +117,14 @@ function caling(){
     localStorage.setItem('ricota', ((rfrango.Ricota*pf+respinafre.Ricota*pe+presunto.Ricota*pq+alhobacon.Ricota*ab).toFixed(2)))
     localStorage.setItem('sal', ((mpastel.Sal*pe+mpastel.Sal*pf+quiche.Sal*pq+quiche.Sal*ab+paointegral.Sal*pi).toFixed(2)))
     localStorage.setItem('salsacebolinha', ((rfrango.Cheiro_verde*pf).toFixed(2)))
+    //----------------------------------------------------------------------------------------------------------------------------\\
 
     lista.innerHTML = ''
     imprimir()
 }
 function imprimir(){
     
-    
+    //Imprimi somente se for diferente de 0 ou null
     if (localStorage.getItem('acucar') != null && localStorage.getItem('acucar') != 0) {
         lista.innerHTML += `Açucar &rarr; ${localStorage.getItem('acucar')}g<br>`
     }
@@ -204,6 +209,7 @@ function imprimir(){
     if (localStorage.getItem('salsacebolinha') != null && localStorage.getItem('salsacebolinha') != 0) {
         lista.innerHTML += `Salsa_e_Cebolinha &rarr;${localStorage.getItem('salsacebolinha')}g<br>`
     }
+    //----------------------------------------------------------------------------------------------------------------------------\\
 }   
 function limpar(){
     localStorage.clear()
